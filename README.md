@@ -1,7 +1,7 @@
 ### Manual Installation
 
 Arch dependencies
-* `sudo pacman -S autoconf automake sassc pkg-config optipng inkscape gnome-themes-extra gtk-engine-murrine`
+* `sudo pacman -S autoconf automake make sassc pkg-config optipng inkscape gnome-themes-extra gtk-engine-murrine`
 
 Installation
 * `./autogen.sh --prefix=/usr --disable-cinnamon --disable-gtk2 --disable-metacity --disable-unity --disable-xfwm --disable-plank --disable-openbox`
